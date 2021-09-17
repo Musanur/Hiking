@@ -1,0 +1,415 @@
+/* global style */
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid{
+    padding: 0px !important;
+}
+
+.row{
+    margin: 0px !important;
+}
+/* global style */
+/* navbar style */
+.navbar{
+    z-index: 1;
+}
+
+.navbar-nav {
+    margin-left: 15%;
+}
+
+.nav-item{
+    padding: 0px 25px;
+}
+
+.nav-item:hover{
+    background-color: #54524f;
+    color: #fff;
+    transition: all linear.3s;
+    padding: 0px 25px;
+    border-radius: 50px;
+}
+
+.nav-item a{
+    color:#54524f ;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.form-control {
+    width: 80%;
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #c3bfbc;
+    border-radius: 50px;  
+}
+
+.form-control:active{
+    background-color: #68635f;
+
+}
+
+.form-control:focus {
+    color: #fff;
+    background-color: #68635f;
+    border-color: #c3bfbc;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem #c3bfbca8;
+}
+
+/* shape style */
+.shape{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+}
+
+.shape img{
+    width: 100%;
+}
+/* shape style */
+
+/* navbar style */
+
+/* banner style */
+.banner-section{
+    height: 900px;
+    background-image: url('../img/banner-img.png');
+    background-repeat: no-repeat;
+    background-position: top;
+
+}
+
+.banner-inner{
+    padding-top: 270px;
+    
+}
+.banner-inner h1{
+    font-size: 90px;
+    font-weight: 900;
+    color: #deb37e;
+    width: 50%;
+}
+.banner-inner .custom-p{
+    font-size: 25px;
+    color: #54524f;
+    font-weight: 600;
+}
+.banner-inner .btn{
+    padding: 7px 23px;
+    font-size: 22px;
+    margin-top: 25px;
+    color: #776c64;
+    font-weight: 700;
+    border-radius: 27px;
+}
+.banner-inner p{
+    font-size: 20px;
+    color: #54524f;
+    font-weight: 400;
+    width: 480px;
+    margin-top: 30px;
+}
+
+
+/* shape style */
+.shape2{
+    position: absolute;
+    top: 150%;
+    left: 0%;
+}
+
+.shape2 img{
+    width: 100%;
+}
+/* shape style */
+
+/* banner style */
+
+/* card style */
+.cardHeader{
+    text-align: center;
+    margin-top: 115px;
+}
+.cardHeader h1{
+    font-size: 62px;
+    font-weight: 900;
+    color: #ec9f41;
+}
+.cardHeader p{
+    font-size: 24px;
+    color: #7f7770;
+    font-weight: 400;
+    margin: 40px 0 50px 0;
+}
+
+/* card body */
+.card{
+    height: 440px;
+}
+
+.card-body{
+    background-color: #7f776f;
+}
+
+.card-title{
+    font-size: 30px;
+    color: #fff;
+}
+
+.card-text{
+    font-size: 18px;    
+    color: #fff;    
+    margin: 25px 0px 30px 0px !important;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #7f7770;
+    border-color: #6c757d;
+    font-weight: 600;
+    padding: 13px 46px;
+    border-radius: 54px;
+}
+
+.card-bg{
+    height: 900px;
+    background-image: url('../img/Shadow1.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+/* card body */
+
+/* card style */
+
+/* discount style */
+.discount-area .row{
+    background-color: #7f7770;
+}
+
+.discount-area img{
+    width: 100%;
+}
+
+.discount-inner{}
+
+.discount-inner h1{
+    font-size: 49px;
+    font-weight: 700;
+    color: #fff;
+    width: 72%;
+}
+
+.discount-inner p{
+    font-size: 24px;
+    width: 70%;
+    color: #fff;
+    line-height: 1.6;
+    margin: 40px 0px 40px 0px;
+}
+
+.discount-inner .btn{
+    color: #fff;
+    background-color: #ffad49;
+    border-color: #ffc107;
+    padding: 10px 30px;
+    font-weight: 800;
+    border-radius: 45px;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+/* discount style */
+
+/* hiking inner style */
+.hiking-innerSection{
+    height: 800px;
+    background-image: url('../img/Shadow1.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-color: #99928df2;
+    text-align: center;
+}
+
+.hiking-innerSection .container{
+    height: 500px;
+}
+
+.hiking-innerSection .hiking-inner{
+    width: 100%;
+}
+
+.hiking-innerSection .hiking-inner h1{
+    font-size: 55px;
+    font-weight: 700;
+    color: #fff;
+
+}
+
+.hiking-innerSection .hiking-inner p{
+    font-size: 26px;
+    font-weight: 500;
+    color: #dbdbdb;
+}
+
+.hiking-inner-shape1 img{
+    width: 100%;
+}
+
+/* hiking inner style */
+
+/* explore style */
+.explore-section{
+    height: auto;
+    background-image: url('../img/banner-img2.png');
+    background-repeat: no-repeat;
+}
+
+.explore-section .explore-inner{
+    height: 770px;
+    text-align: right;
+    padding: 50px;
+}
+
+.explore-inner h1{
+    font-size: 75px;
+    font-weight: 900;
+    color: #54524f;
+}
+.explore-inner .explore-customSpan{
+    color: #deb37e;
+}
+/* explore style */
+
+/* 2nd card area style */
+.card-area2{
+    height: 600px;
+    background-image: url('../img/Shadow.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.card-areaInner2{}
+.card-areaInner2 h3{
+    font-size: 33px;
+    color: #ec9f41;
+    font-weight: 500;
+}
+.card-areaInner2 p{}
+
+.card-inner2{
+    text-align: center;
+    padding: 200px;
+}
+
+.card-inner2 h1{
+    font-size: 90px;
+    color: #54524f;
+    font-weight: 900;
+}
+
+.card-inner2 p{
+    font-size: 23px;
+    color: #68635f;
+}
+/* 2nd card area style */
+
+/* subscribe-section style */
+.subscribe-section{
+    height: 816px;
+    background-color: #deb37e;
+}
+
+.subscribe-section .container{
+    height: 450px;
+}
+
+.subscribe-inner{
+    text-align: center;
+    padding: 120px;
+}
+
+.subscribe-section h1{
+    font-size: 50px;
+    font-weight: 800;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.subscribe-section p{
+    font-size: 19px;
+    color: #68635f;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    width: 60%;
+    margin-left: 20%;
+}
+
+.form-control {
+    background-color: #fff;
+}
+
+.btn-outline-secondary {
+    color: #fff;
+    background-color: #54524f;
+}
+/* subscribe-section style */
+
+/* footer style*/
+footer{
+    height: 500px;
+    background-color: #7f7770;
+}
+
+.footer-section{
+    padding: 100px;
+}
+
+.footer-inner{
+    margin-left: 15px;
+}
+.footer-inner h4{
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+.footer-inner p{
+    color: #fff;
+}
+
+.social-icon{
+    width: 200px;
+}
+
+.social-icon i{
+    background-color: #ffffff;
+    color: #7f7770;
+    padding: 10px 11px;
+    border-radius: 33px;
+    font-size: 15px;
+    line-height: 1;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.footer-inner ol{
+    list-style: none;
+    padding: 0px;
+}
+.footer-inner li{}
+.footer-inner li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-inner li a:hover{
+    text-decoration: none;
+}
+
+/* footer style */
